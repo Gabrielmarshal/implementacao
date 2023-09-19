@@ -1,0 +1,17 @@
+.cabecalho{
+    background-color: var(--cor-cabecalho);
+    padding: 1em;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.container__imagem, .container__frase {
+    padding: 1em;
+}
+
+.container__titulo, .container__frase{
+    display: none;
+}
